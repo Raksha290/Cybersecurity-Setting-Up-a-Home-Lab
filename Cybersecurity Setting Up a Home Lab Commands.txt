@@ -1,0 +1,18 @@
+Cybersecurity: Setting Up a Home Lab
+
+Commands used to install and configure tools in both Ubuntu and Kali-Linux VMs
+-> sudo apt update && sudo apt upgrade -y (Update the system)
+-> sudo apt install -y build essential; git curl wget (install essential tools)
+
+Simulate Network Attacks and Defenses
+-> nmap -A 10.0.X.X (simulate an attack against ubuntu VM)
+-> sudo apt install ufw (Defend against attack and along with that install uncomplicated firewall )
+-> sudo ufw enable
+-> sudo ufw allow ssh
+-> sudo ufw allow from 10.0.X.X
+-> sudo ufw status 
+
+Analyze Network Traffic
+-> sudo apt install wireshark
+-> sudo wireshark 
+This tool captures the packets for the attack and the defense against Vms
